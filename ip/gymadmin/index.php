@@ -13,7 +13,7 @@ if(isset($_SESSION['username'])){
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Gym trainer | Template </title>
+    <title>Gym trainer | Anasayfa </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -74,6 +74,7 @@ if(isset($_SESSION['username'])){
                                         </ul>
                                     </li>
                                     <li><a href="contact.php">İletişim</a></li>
+                                     <li><a href="dolarkuru.php">dolar kuru</a></li> 
                                 </ul>
                             </nav>
                         </div>          
@@ -101,8 +102,8 @@ if(isset($_SESSION['username'])){
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-10">
                             <div class="hero__caption">
-                                <span data-animation="fadeInLeft" data-delay="0.1s">Hi This is Tuitions Tonight</span>
-                                <h1 data-animation="fadeInLeft" data-delay="0.4s">Gym Trainer</h1>
+                                <span data-animation="fadeInLeft" data-delay="0.1s">Bu akşamki programlar</span>
+                                <h1 data-animation="fadeInLeft" data-delay="0.4s">Gym Antrenörü</h1>
                                 <a href="courses.html" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Kurslarım</a>
                             </div>
                         </div>
@@ -138,7 +139,7 @@ if(isset($_SESSION['username'])){
                                 <div class="topic-content">
                                     <h3>Grup Eğitimi</h3>
                                     <p>You’ll look at graphs and charts in Task One, how to approach the task and <br> the language needed for a successful answer.</p>
-                                    <a href="courses.html" class="btn">View Courses</a>
+                                    <a href="courses.html" class="btn">Kursları Gör</a>
                                 </div>
                             </div>
                         </div>
@@ -165,8 +166,8 @@ if(isset($_SESSION['username'])){
                             <img src="assets/img/gallery/team1.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Body Building</a></h5>
-                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
+                            <h5><a href="services.html">Vücut Geliştirme</a></h5>
+                            <p> </p>
                         </div>
                     </div>
                 </div>
@@ -176,8 +177,8 @@ if(isset($_SESSION['username'])){
                             <img src="assets/img/gallery/team2.png" alt="">
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Kas Kazanma</a></h5>
-                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
+                            <h5><a href="services.html">Kas Kazancı</a></h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -188,7 +189,7 @@ if(isset($_SESSION['username'])){
                         </div>
                         <div class="cat-cap">
                             <h5><a href="services.html">Kilo Kaybı</a></h5>
-                            <p>You’ll look at graphs and charts in Task One, how to approach the task </p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -460,13 +461,10 @@ if(isset($_SESSION['username'])){
                 <!-- section tittle -->
                 <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                     <div class="front-text">
-                        <h2 class="">About Me</h2>
-                        <p>You’ll look at graphs and charts in Task One, how to approach the task and the language needed 
-                            for a successful answer. You’ll examine Task Two questions and learn how to plan, write and 
-                        check academic essays.</p>
-                        <p class="mb-40">Task One, how to approach the task and the language needed for a successful answer. You’ll 
-                        examine Task Two questions and learn how to plan, write and check academic essays.</p>
-                        <a href="courses.html" class="border-btn">My Courses</a>
+                        <h2 class="">Hakkımda</h2>
+                        <p></p>
+                        <p class="mb-40"></p>
+                        <a href="courses.html" class="border-btn">Kurslarım</a>
                     </div>
                 </div>
             </div>
@@ -480,7 +478,7 @@ if(isset($_SESSION['username'])){
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-md-9 col-sm-10">
                     <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                        <h2>From Blog</h2>
+                        <h2> Blog</h2>
                     </div>
                 </div>
             </div>
@@ -493,7 +491,7 @@ if(isset($_SESSION['username'])){
                             </div>
                             <div class="blog-cap">
                                 <span>Gym & Fitness</span>
-                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
+                                <h3><a href="blog_details.html"></a></h3>
                             </div>
                         </div>
                     </div>
@@ -506,7 +504,7 @@ if(isset($_SESSION['username'])){
                             </div>
                             <div class="blog-cap">
                                 <span>Gym & Fitness</span>
-                                <h3><a href="blog_details.html">Your Antibiotic One Day To 10 Day Options</a></h3>
+                                <h3><a href="blog_details.html"></a></h3>
                             </div>
                         </div>
                     </div>
@@ -537,7 +535,7 @@ if(isset($_SESSION['username'])){
                         </div>
                         <div class="features-caption">
                             <h3>Lokasyon</h3>
-                            <p>You’ll look at graphs and charts in Task One, how to approach </p>
+                            <p> </p>
                         </div>
                     </div>
                 </div>
@@ -547,7 +545,7 @@ if(isset($_SESSION['username'])){
                             <img src="assets/img/icon/icon2.svg" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Phone</h3>
+                            <h3>telefon</h3>
                             <p>(90) 54455156</p>
                             <p>  (78) 588954851</p>
                         </div>
@@ -560,8 +558,8 @@ if(isset($_SESSION['username'])){
                         </div>
                         <div class="features-caption">
                             <h3>Email</h3>
-                            <p>TuitionsTonight@gmail.com</p>
-                            <p>tutifyy@gmail.com</p>
+                            <p>gorkemsoner@gmail.com</p>
+                            
                         </div>
                     </div>
                 </div>
@@ -580,7 +578,7 @@ if(isset($_SESSION['username'])){
                         <div class="single-footer-caption mb-50 text-center">
                             <!-- logo -->
                             <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                <a href="index.html"><img src="img/TT.png" alt=""></a>
+                                <a href="index.php"><img src="img/TT.png" alt=""></a>
                             </div>
                             <!-- Menu -->
                             <!-- Header Start -->
@@ -591,12 +589,12 @@ if(isset($_SESSION['username'])){
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">Anasayfa</a></li>
-                                                    <li><a href="about.html">Hakkımızda</a></li>
-                                                    <li><a href="courses.html">Kurslar</a></li>
-                                                    <li><a href="pricing.html">Ödeme</a></li>
-                                                    <li><a href="gallery.html">Galeri</a></li>
-                                                    <li><a href="contact.html">İletişim</a></li>
+                                                    <li><a href="index.php">Anasayfa</a></li>
+                                                    <li><a href="about.php">Hakkımızda</a></li>
+                                                    <li><a href="courses.php">Kurslar</a></li>
+                                                    <li><a href="pricing.php">Ödeme</a></li>
+                                                    <li><a href="gallery.php">Galeri</a></li>
+                                                    <li><a href="dolarkuru.php">dolar kuru</a></li>                                                
                                                 </ul>
                                             </nav>
                                         </div>   
@@ -606,9 +604,9 @@ if(isset($_SESSION['username'])){
                             <!-- Header End -->
                             <!-- social -->
                             <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
-                                <a href="https://www.youtube.com/channel/UCsZydS6Ww6KdeGsYao4lniw"><i class="fab fa-youtube"></i></a>
-                                <a href="https://m.facebook.com/TT7.in/"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/tuitionstonight/"><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -620,7 +618,7 @@ if(isset($_SESSION['username'])){
                     <div class="col-lg-12">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i>  <a href="https://www.TuitionsTonight.com" target="_blank">TuitionsTonight</a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart" aria-hidden="true"></i>  <a href="" target="_blank"></a>
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                           </div>
                       </div>

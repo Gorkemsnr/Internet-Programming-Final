@@ -27,7 +27,7 @@ require 'fbaglan.php'
 					<label class="login-field-icon fui-user" for="login-pass"></label>
 				</div>
 					
-					<button href="fkayit.php" name="kayit" class="btn btn-primary btn-large btn-block">Kayıt Ol</button>
+					<button href="fkayit.php" name="fkayit" class="btn btn-primary btn-large btn-block">Kayıt Ol</button>
 				</div>
 				</form>
 				<a href="flogin.php"><button  class="btn btn-primary btn-large btn-block">Giriş Yap</button></a>

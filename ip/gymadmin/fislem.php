@@ -6,7 +6,7 @@ require 'fbaglan.php';
 if(isset($_POST['fkayit'])){
 	$username=$_POST['username'];
 	$password=$_POST['password'];
-	$password_again=@$_POST['password_again'];
+	$password_again=$_POST['password_again'];
 	
 	if(!$username){
 		echo "lütfen kullanıcı adınızı giriniz";

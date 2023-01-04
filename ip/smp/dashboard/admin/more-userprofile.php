@@ -81,12 +81,12 @@ if(isset($_POST['submit'])){
 						
 						<ul class="list-inline links-list pull-right">
 
-							<li>Welcome <?php echo $_SESSION['full_name']; ?> 
+							<li>Hoşgeldiniz <?php echo $_SESSION['full_name']; ?> 
 							</li>						
 						
 							<li>
 								<a href="logout.php">
-									Log Out <i class="entypo-logout right"></i>
+									Çıkış <i class="entypo-logout right"></i>
 								</a>
 							</li>
 						</ul>
@@ -95,7 +95,7 @@ if(isset($_POST['submit'])){
 					
 				</div>
 
-		<h3>Edit user profile</h3>
+		<h3>Kullanıcı Profilini Düzenle</h3>
 		
 		(You will be required to Login Again After Profile Update)
 		
@@ -110,7 +110,7 @@ if(isset($_POST['submit'])){
 		<div class="a1-container a1-small a1-padding-32" style="margin-top:2px; margin-bottom:2px;">
         <div class="a1-card-8 a1-light-gray" style="width:600px; margin:0 auto;">
 		<div class="a1-container a1-dark-gray a1-center">
-        	<h6>CHANGE PROFILE</h6>
+        	<h6>Profil Değiş</h6>
         </div>
        <form id="form1" name="form1" method="post" class="a1-container" action="">
          <table width="100%" border="0" align="center">
@@ -121,12 +121,12 @@ if(isset($_POST['submit'])){
            	   <td height="35"><input type="text" name="login_id" value="<?php echo $_SESSION['user_data']; ?>" class="form-control" required/></td>
          	   </tr>
              <tr>
-               <td height="35">FULL NAME:</td>
+               <td height="35">Tam Ad:</td>
                <td height="35"><input class="form-control" type="text" name="full_name" id="textfield2" value="<?php echo $_SESSION['username']; ?>" maxlength="25" required></td>
              </tr>
              <tr>
-               <td height="35">PASSWORD</td>
-               <td height="35"><span class="form-control">*********</span> <a href="change_pwd.php" class="a1-btn a1-orange">Change password</a> <span class="help-block">*For security reasons hidden</span></td><br>
+               <td height="35">Şifre</td>
+               <td height="35"><span class="form-control">*********</span> <a href="change_pwd.php" class="a1-btn a1-orange">Change password</a> <span class="help-block">*Güvenlik nedeniyle Gizli</span></td><br>
              </tr>
              
              <br>
